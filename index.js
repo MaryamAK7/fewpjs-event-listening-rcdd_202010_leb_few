@@ -4,4 +4,4 @@ function addingEventListener() {
 }
 
 const input=document.getElementById('input');
-input.addingEventListener('click',addingEventListener);
+input.addEventListener('click',addingEventListener);
